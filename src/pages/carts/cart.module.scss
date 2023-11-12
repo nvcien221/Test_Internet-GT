@@ -1,0 +1,62 @@
+/* Trong tệp .scss hoặc .css */
+.cart{
+    margin: 5rem;
+}
+table {
+    border-collapse: collapse;
+
+}
+.cart-title{
+    background-color: rgb(114, 179, 253);
+}
+th{
+    color: black;
+    padding: 10px;
+}
+td{
+    border: 0.13rem solid rgb(0, 72, 255);
+    text-align: center;
+}
+td:nth-child(1){
+    width: 30rem;
+}
+td:nth-child(2),td:nth-child(5){
+    width: 20rem;
+}
+td img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin: auto;
+}
+.button-delete{
+    font-size: 1.4rem;
+    color: azure;
+    padding: 1rem 2rem;
+    background: linear-gradient(0deg, rgba(246, 80, 80, 0.9) 5.14%, #f83434 89.71%);
+    cursor: pointer;
+}
+.minus,.plus{
+    background-color: rgb(40, 70, 235);
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.minus:active,.plus:active{
+    background-color: rgb(255, 0, 0);
+}
+.cart-quantity{
+    margin: 0 1rem;
+}
+.button-agree{
+    font-size: 2rem;
+    color: azure;
+    padding: 1rem 7rem;
+    background: red;
+    margin-left: 50rem;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+ 
+  

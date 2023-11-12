@@ -1,0 +1,67 @@
+
+.size-container,.button-quantity{
+    display: flex;
+}
+.button-size{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+    background-color: rgb(134, 185, 252);
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.button-size:active{
+    background-color: white;
+}
+.size a{
+    font-size: 2rem;
+    color: black;
+}
+.detail{
+    margin: auto;
+}
+.product-img-div{
+    width: 45rem;
+    height: 35rem;
+    top: 58px;
+    left: 64px;
+    background: #ebe9e9;
+}
+.product-img{
+    margin: auto;
+}
+.realate-product{
+    margin-top: 10rem;
+}
+.button-add:hover{
+    background: linear-gradient(0deg,rgba(0,3,255,1) 0%,rgba(2,126,251,1) 100%);
+    transition: 0.2s;
+}
+.button-add{
+    font-size: 2rem;
+    color: azure;
+    // margin-top: 2rem;
+    padding: 1.5rem 2.2rem;
+    background: linear-gradient(0deg, rgba(246, 80, 80, 0.9) 5.14%, #f83434 89.71%);
+    cursor: pointer;
+    
+}
+.button-add:active{
+    background: linear-gradient(0deg, rgba(246, 80, 80, 0.9) 5.14%, #f83434 89.71%);
+}
+.minus,.plus{
+    background-color: rgb(40, 70, 235);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.content{
+    margin-bottom: 3rem;
+}
+.button-quantity{
+    margin: 20px 0;
+}

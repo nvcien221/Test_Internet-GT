@@ -1,0 +1,43 @@
+.page {
+    display: flex;
+    margin: 20px 40px;
+    gap: 8px;
+
+    .page-button {
+        width: 32px;
+        height: 32px;
+        border: 1px solid rgba(223, 227, 232, 1);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    div {
+        &:nth-of-type(1) {
+            margin-left: auto;
+        }
+
+        &.disable {
+            opacity: 50%;
+            background: rgba(145, 158, 171, 1);
+            color: rgba(33, 43, 54, 1);
+            cursor: not-allowed;
+        }
+
+        &.active {
+            border-color: rgba(66, 0, 255, 1);
+            color: rgba(66, 0, 255, 1);
+        }
+
+        &.dot {
+            cursor: not-allowed;
+            border: none;
+        }
+    }
+}

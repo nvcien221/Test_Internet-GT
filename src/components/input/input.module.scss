@@ -1,0 +1,54 @@
+
+.input-search{
+    font-size: 2rem;
+    padding: 1.5rem 1.5rem;
+    margin-left: 50rem;
+}
+.button-search{
+    font-size: 1.6rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    background-color: rgb(26, 237, 26);
+    cursor: pointer;
+}
+.button-search:active{
+    color: white;
+    background-color: black;
+}
+
+.button-sort{
+    display: flex;
+    text-align: end;
+    margin: 5rem 5rem;
+}
+.button-asc,.button-desc{
+    padding: 1rem;
+    background-color: rgb(43, 233, 43);
+    margin-left: 2rem;
+   cursor: pointer;
+}
+.button-asc:active,.button-desc:active{
+    background-color: black;
+    color: white;
+}
+.list-card{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    @media screen and (max-width:992px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width:768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width:576px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

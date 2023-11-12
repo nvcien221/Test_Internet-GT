@@ -1,0 +1,15 @@
+.product-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    background: linear-gradient(180deg, #F21299 0%, #1B02B5 100%);
+    color: #FFFFFF;
+    width: 70rem;
+    margin: 5rem 0;
+    text-align: left;
+    padding: 1rem 1rem;
+    @media  screen and (max-width:720px) {
+        width: 100%;
+        text-align: center;
+    }
+}

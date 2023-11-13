@@ -6,7 +6,6 @@ import * as Y from "yup";
 import { loginFacebook, userLogin } from "src/services/user.service";
 import { setLocalStorage } from "src/utils";
 import { NavLink } from "react-router-dom";
-import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props";
 import {
   ACCESS_TOKEN,
   EMAIL_USER,
@@ -98,23 +97,6 @@ export default function Login() {
             <NavLink className={css["register"]} to={NAVIGATE_URL.register}>
               Register now ?
             </NavLink>
-            <FacebookLogin
-              appId="963495338437666"
-              fields="name,email,picture"
-              render={(renderProps:any) => (
-                <button
-                  onClick={renderProps.onClick}
-                  type="button"
-                  className={css["fb"]}
-                >
-                  Continue with Facebook
-                  <span>
-                    <IconFb />
-                  </span>
-                </button>
-              )}
-              callback={responseFacebook}
-            />
           </div>
         </form>
       </div>

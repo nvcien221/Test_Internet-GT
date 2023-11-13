@@ -52,8 +52,7 @@ export default function Footer() {
       </div>
       <div className={css["footer-author"]}>
         <p>
-          © 2022 Cybersoft All Rights Reserved | Design Theme by Trương Tấn
-          Khải.
+          © 2023 | Design Theme by N7
         </p>
       </div>
     </div>
